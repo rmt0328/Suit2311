@@ -1,0 +1,165 @@
+#registerContainer{
+    position: relative;
+    height: 100vh;
+    min-width: 1400px;
+    width: 100vw;
+    background-image: url("../../images/myUi/bg1.jpg");
+    background-size: 100%;
+    background-repeat: round;
+}
+#registerDiv {
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(189, 222, 194, 0.4);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#registerDiv h3{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+#registerDiv form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+#registerDiv .form-control {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#registerDiv .form-sex {
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+#registerDiv .inputText {
+    width: 165px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.3);
+}
+#registerDiv #sex {
+    width: 165px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.3);
+}
+
+#registerDiv #selectModel{
+    width: 165px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.3);
+}
+
+#registerBnts{
+    margin-top: 10px;
+}
+#password::placeholder{
+    color: #fffcfc;
+}
+#username::placeholder{
+    color: #fffcfc;
+}
+
+#registerDiv .registerbtn {
+    width: 165px;
+    height: 28px;
+    border-radius: 6px;
+    border: 10px solid #000;
+    margin-left:65px;
+    background: rgb(20, 183, 47);
+    color: #FFF;
+    border: none;
+    margin-top:10px;
+}
+
+#registerDiv .backLoginbtn {
+    width: 165px;
+    height: 28px;
+    border-radius: 6px;
+    border: 10px solid #000;
+
+    background: rgb(28, 126, 19);
+    color: #FFF;
+    border: none;
+    margin-left:65px;
+    margin-top:10px;
+}
+#registerDiv .backLoginbtn:hover{
+    background: rgb(252, 255, 255,0.5);
+    color: rgb(77,143,160);
+}
+#registerDiv .registerbtn:hover{
+    background: rgb(252, 255, 255,0.5);
+    color: rgb(77,143,160);
+}
+
+#maleModelModal {
+    display: none;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#femaleModelModal {
+    display: none;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.closeModal {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+
+.modelImg {
+    padding: 20px;
+}

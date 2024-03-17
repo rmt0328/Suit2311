@@ -1,0 +1,112 @@
+#categoryContainer {
+
+}
+
+#categoryDivContainer {
+    padding: 40px 20px;
+
+    justify-content: center;
+
+    width: 100vw;
+
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
+
+    grid-gap: 60px 60px;
+}
+
+.categoryDiv {
+    position: relative;
+    width: 220px;
+    height: 160px;
+    padding-top: 10px;
+    background: rgba(32, 166, 133, 0.6) url("../../images/ui/glass.png");
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.categoryDiv h4 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+.categoryDiv form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.categoryDiv .form-control {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.categoryDiv .inputText {
+    width: 165px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.3);
+}
+
+
+
+.categoryBnts{
+    margin-top: 10px;
+}
+
+.inputText::placeholder{
+    color: #fffcfc;
+}
+
+
+.categoryBnts{
+    float: right;
+    margin-right: 30px;
+}
+
+.categoryDiv .btnEdit, .btnAdd1{
+    background-color: rgba(33, 121, 155, 0.4);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.categoryDiv .btnDel{
+    background-color: rgba(245, 0, 0, 0.4);
+    border: none;
+    margin-left: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.categoryDiv .registerbtn:hover{
+    background: rgb(252, 255, 255,0.5);
+    color: rgb(77,143,160);
+}
+
+.categoryDiv .btnEdit:hover, .btnAdd:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 121, 155);
+}
+
+.categoryDiv .btnDel:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(155, 33, 33);
+}

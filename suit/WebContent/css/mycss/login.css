@@ -1,0 +1,108 @@
+#loginContainer{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    min-width: 1400px;
+    background-image: url("../../images/myUi/loginBK.png");
+    background-size: 100%;
+    background-repeat: round;
+
+}
+#loginDiv {
+    width: 300px;
+    height: 260px;
+    padding-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(115, 199, 234, 0.4);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+#loginBG{
+    height: 50px;
+    width: 50px;
+    background-image: url("../../images/myUi/login.png");
+    background-size: 100%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#loginDiv h3{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#loginDiv form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+#loginDiv .form-control {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+#loginDiv .inputText {
+    width: 165px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.3);
+}
+
+
+
+#loginBnts{
+    margin-top: 10px;
+}
+#password::placeholder{
+    color: #fffcfc;
+}
+#username::placeholder{
+    color: #fffcfc;
+}
+
+
+#loginDiv .loginbtn {
+    width: 165px;
+    height: 28px;
+    border-radius: 6px;
+    border: 10px solid #000;
+    margin-left:65px;
+    background: rgb(77,143,160);
+    color: #FFF;
+    border: none;
+    margin-top:10px;
+}
+#loginDiv .loginbtn:hover{
+    background: rgb(252, 255, 255,0.5);
+    color: rgb(77,143,160);
+}
+#loginDiv .registerbtn {
+    width: 165px;
+    height: 28px;
+    border-radius: 6px;
+    border: 10px solid #000;
+
+    background: rgb(70, 118, 129);
+    color: #FFF;
+    border: none;
+    margin-left:65px;
+    margin-top:10px;
+}
+
+#loginDiv .registerbtn:hover{
+    background: rgb(252, 255, 255,0.5);
+    color: rgb(77,143,160);
+}
